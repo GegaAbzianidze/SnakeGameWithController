@@ -2,7 +2,7 @@ import { Icon } from "@iconify/react";
 import { useState } from "react";
 import io from "socket.io-client";
 
-const socket = io.connect("https://snake-game-server.vercel.app/");
+const socket = io.connect(import.meta.env.VITE_SERVER_URL);
 
 const Controls = () => {
   const [room, setRoom] = useState("");
