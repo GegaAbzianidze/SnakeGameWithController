@@ -1,0 +1,25 @@
+.App {
+  text-align: center;
+}
+
+.game-area {
+  position: relative;
+  height: 80vmin;
+  width: 80vmin;
+  border: 1px solid black;
+  margin: 0 auto;
+}
+
+.snake-dot {
+  position: absolute;
+  width: 2%;
+  height: 2%;
+  background: black;
+}
+
+.food {
+  position: absolute;
+  width: 2%;
+  height: 2%;
+  background: red;
+}
