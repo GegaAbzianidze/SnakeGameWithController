@@ -3,7 +3,7 @@ import io from "socket.io-client";
 import { Icon } from "@iconify/react";
 import SnakeGame from "./SnakeGame/SnakeGame";
 
-const socket = io.connect("http://192.168.1.13:3001");
+const socket = io.connect("https://snake-game-server.vercel.app/");
 
 const Connection = () => {
   const [roomCode, setRoomCode] = useState("");
